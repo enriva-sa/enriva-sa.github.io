@@ -43,11 +43,21 @@ header{
 	margin-left:2%;
 }
 
-.menu a li{
-	font-size:14px;
-	font-weight:bold;
-	text-decoration:none;
+.menu li a{
+	background-color:#A5D1DD;;
+	padding: 5px 0px;
+	display: block;
+}
+
+.menu li{
 	text-align: center;
+}
+
+.menu li a:hover{
+	text-decoration:none;
+	background-color:white;
+	color:black;
+	font-weight:bold;
 }
 
 ul{
@@ -56,4 +66,15 @@ ul{
 	background-color:#8ECCEF;
 	float:left;
 	width:100%;
+	margin-bottom:0px;
+}
+
+.image-banner{
+	width:100%;
+}
+
+#index-text p{
+	background-color: white;
+	margin: 14px 5%;
+	padding: 5px 5%;
 }
