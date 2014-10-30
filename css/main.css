@@ -111,10 +111,11 @@ ul{
 }
 
 .footer{
-	color: white;
-	padding: 5px 6%;
+	color: #FFF;
+	padding: 5px 20px;
 	text-align: center;
-	float:left;
+	float: left;
+	width: 100%;
 }
 
 .footer a{
@@ -136,4 +137,30 @@ ul{
 
 .resaltador{
 	background-color:black;
+}
+
+.clientes-ul{
+	background-color:white;
+}
+
+.margin-fullwith{
+	width: 90%;
+}
+
+.clientes-ul li{
+	text-align: center;
+	width: 50%;
+	padding: 6px 1%;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.clientes-ul li img{
+	heght: auto;
+	width: 62%;
+	margin-bottom: 8px;
+}
+
+.client_name{
+	border: solid rgba(201, 201, 201, 1) 1px;
 }
