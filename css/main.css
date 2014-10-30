@@ -36,6 +36,12 @@ header ul{
 	font-size: 18px;
 }
 
+.menu-for-video{
+	position: fixed;
+	z-index: 1;
+	top: 111px;
+}
+
 .btn#responsive-menu {
 	background-color: rgba(32, 74, 147, 0.96);
 	padding: 8px;
@@ -163,4 +169,36 @@ ul{
 
 .client_name{
 	border: solid rgba(201, 201, 201, 1) 1px;
+}
+
+.video{
+	width:100%;
+	height:auto;
+	position:fixed;
+	top: 167px;
+	left: 0px;
+	display:none;
+}
+
+.cover-v{
+	position:fixed;
+	top: 111px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	background-color:black;
+	width:100%;
+	display:none;
+}
+
+.videos-ul{
+	background-color:white;
+}
+
+.fixed-for-video{
+	position:fixed;
+}
+
+.margin-f-videos{
+	margin-top:128px!important;
 }
