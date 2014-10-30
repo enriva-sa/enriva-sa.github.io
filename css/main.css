@@ -1,16 +1,18 @@
 body{
-	background-color:rgb(231, 238, 245);
+	background-color:#071720;
 }
 
 //---Header---
 
-header{
+header ul{
+	display:none;
 }
 
 .upside-header{
 	padding: 10px 2%;
 	float: left;
-	width: 100%;	
+	width: 100%;
+	background-color: white;
 }
 
 .logo{
@@ -44,19 +46,27 @@ header{
 }
 
 .menu li a{
-	background-color:#A5D1DD;;
+	background-color:#457583;
 	padding: 5px 0px;
 	display: block;
+	font-weight:bold;
+	color:rgba(209, 209, 209,1);
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	/* ...and now for the proper property */
+	transition:.5s;
 }
 
 .menu li{
 	text-align: center;
 }
 
-.menu li a:hover{
+.menu li a:hover, ul li a.selected{
 	text-decoration:none;
-	background-color:white;
-	color:black;
+	background-color: #002E38;
+	color: white;
 	font-weight:bold;
 }
 
@@ -69,12 +79,61 @@ ul{
 	margin-bottom:0px;
 }
 
+.content-list{
+	list-style:inherit;
+	background-color:white;
+	padding-left:9%;
+	margin-bottom:5px;
+}
+
+.li-margin li{
+	margin-bottom:10px;
+}
+
 .image-banner{
 	width:100%;
 }
 
 #index-text p{
+}
+
+#myCarousel{
+	float:left;
+	width:100%;
+}
+
+#index-text{
+	float:left;
 	background-color: white;
 	margin: 14px 5%;
 	padding: 5px 5%;
+
+}
+
+.footer{
+	color: white;
+	padding: 5px 6%;
+	text-align: center;
+	float:left;
+}
+
+.footer a{
+	color:gray;
+}
+
+.footer a:hover{
+	color: white;
+}
+
+#footer-name{
+	font-weight:bold;
+}
+
+.carousel-galeria{
+	margin-bottom:40px;
+	margin-top:55px;
+}
+
+.resaltador{
+	background-color:black;
 }
