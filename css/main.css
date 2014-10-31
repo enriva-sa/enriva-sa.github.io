@@ -65,6 +65,10 @@ header ul{
 	transition:.5s;
 }
 
+.sub-menu li a{
+	background-color: rgba(21, 44, 51, 1);
+}
+
 .menu li{
 	text-align: center;
 }
@@ -74,6 +78,16 @@ header ul{
 	background-color: #002E38;
 	color: white;
 	font-weight:bold;
+}
+
+.sub-menu{
+}
+
+.hidden{
+	display:none!important;
+}
+.sub-menu li a:hover, .sub-menu li a.sub-selected{
+	background-color: #696969;;
 }
 
 ul{
