@@ -304,6 +304,14 @@ ul{
 	border-bottom:solid black 2px;
 }
 
+.border-top{
+	border-top:solid black 2px;
+}
+
+.border-bottom{
+	border-bottom:solid black 2px!important;
+}
+
 .productos_name{
 	font-weight:bold;
 }
