@@ -281,3 +281,55 @@ ul{
 	color:black;
 	border: gray solid 1px;
 }
+
+.productos-ul{
+	background-color:white;
+	text-align:center;
+}
+
+.productos-ul li{
+	margin-top:10px;
+	padding-bottom:10px;
+	border-bottom:solid gray 1px;
+}
+
+.productos-ul li:last-child{
+	border-bottom:none;
+}
+
+.products-tittle{
+	text-align:center;
+	font-weight:bold;
+	width:100%;
+	border-bottom:solid black 2px;
+}
+
+.productos_name{
+	font-weight:bold;
+}
+
+.productos-ul li a{
+	color:black;
+}
+
+.productos-ul li a:hover{
+	color:black;
+}
+
+.productos_comment{
+	color:gray;
+}
+
+.hidden_comment{
+	display:none;
+}
+
+.Indicator{
+	border-radius:5px;
+	padding: 3px 1%;
+	color:white;
+	position:absolute;
+	margin-top:7px;
+	float:right;
+	background-color:rgba(0, 0, 0, 0.5);
+}
