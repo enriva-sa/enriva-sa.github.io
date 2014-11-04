@@ -355,3 +355,14 @@ ul{
 .glyph-size{
 	font-size:10px!important;
 }
+
+.productos-ul li ul{
+	background-color:white;
+	padding-left:7%;
+	list-style:initial;
+	text-align: left;
+}
+
+.productos-ul li ul li{
+	border-bottom:none;
+}
