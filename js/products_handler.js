@@ -18,3 +18,15 @@ var product = {
 		}
 	}
 }
+
+var hid = true;
+
+$('#pr-men').on('click',function(){
+	if(hid){
+		$('.sub-menu').show()
+		hid = false;
+	}else{
+		$('.sub-menu').hide();
+		hid = true;
+	}
+});
