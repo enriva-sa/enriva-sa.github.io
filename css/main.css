@@ -2,17 +2,27 @@ body{
 	width:70%;
 	margin-left:15%;
 	background-color:#071720;
+	font-style:italic;
 }
 
 header ul{
 	display:block;
 }
 
+.video_li{
+	width:123px;
+}
+
 .upside-header{
 	padding: 10px 2%;
 	float: left;
 	width: 100%;
+}
+
+.upside-header a img{
+	background-color:rgba(0, 0, 0, 0.5);
 	background-color: white;
+	border-radius: 8px;
 }
 
 .logo{
@@ -29,6 +39,7 @@ header ul{
 	top: 47px;
 	position: absolute;
 	left: 27.8%;
+	color:white;
 }
 
 .btn#responsive-menu {
@@ -83,6 +94,12 @@ header ul{
 
 .carousel-galeria{
 	margin-bottom:40px;
+}
+
+#myCarousel{
+	width:55%;
+	margin-top:10px;
+	margin-left:22%;
 }
 
 .margin-bottom{
@@ -329,11 +346,32 @@ header ul{
 	margin-left:37%!important;
 }
 
+.reduce-width{
+	width:50%;
+}
+
+.content-img{
+	width:48%;
+	margin-top:14px;
+}
+
 @media only screen and (min-width: 150px) and (max-width:580px){
 
 body{
 	width:initial;
 	margin-left:initial;
+}
+
+.reduce-width{
+	width:91%;
+}
+
+.content-img{
+	display:none;
+}
+
+.upside-header{
+	background-color:white;
 }
 
 .center-contacts{
@@ -361,6 +399,7 @@ header ul{
 	top: 33px;
 	width:33%;
 	left: 33.8%;
+	color:black;
 }
 
 .glyphicon#menu-icon {
@@ -439,6 +478,8 @@ ul{
 #myCarousel{
 	float:left;
 	width:100%;
+	margin-top:0px;
+	margin-left:0px;
 }
 
 #index-text{
